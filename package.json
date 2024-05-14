@@ -10,6 +10,7 @@
   "devDependencies": {
     "brittle": "^3.0.0"
   },
+  "bin": "bare ./index.js",
   "scripts": {
     "dev": "pear dev",
     "test": "brittle test/*.test.js"
@@ -22,5 +23,22 @@
     "corestore": "^6.18.2",
     "hyperbee": "^2.19.5",
     "hyperswarm": "^4.7.14"
-  }
+  },
+  "version": "1.0.0",
+  "description": "This app is a CLI dictionary that works as a serverless application using hyperswarm, corestore, hyperbee, b4a, bare-readline and bare-tty, and where you can look for specific information about a Holepunch's blocks or terminology such as Hyperbee, Hyperswarm, etc",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alemanjosh7/pearblock.git"
+  },
+  "keywords": [
+    "pearblock"
+  ],
+  "author": "alemanjosh7",
+  "bugs": {
+    "url": "https://github.com/alemanjosh7/pearblock/issues"
+  },
+  "homepage": "https://github.com/alemanjosh7/pearblock#readme"
 }
